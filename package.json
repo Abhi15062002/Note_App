@@ -1,0 +1,12 @@
+{
+  "name": "electron-note-app",
+  "version": "1.0.0",
+  "description": "A simple Electron note-taking app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^26.2.0"
+  }
+}

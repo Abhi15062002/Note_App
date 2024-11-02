@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron Note App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Your Notes</h2>
+      <ul id="note-list"></ul>
+    </aside>
+    <main class="main">
+      <textarea id="note-content" placeholder="Write your note here..."></textarea>
+      <button id="save-button">Save</button>
+    </main>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
